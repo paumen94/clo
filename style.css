@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+  background: rgba(0, 180, 50, 0.2);;
+  color: yellow;
+  font-family: 'IBM Plex Sans', sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+
+h1{
+	color: rgba(0,180,100,0.9);;
+  font-family: 'Merriweather Sans', sans-serif;
+  font-weight: bold;
+}
+
+h2{
+	color: rgba(255,50,150,0.7);
+  font-family: 'Racing Sans One', cursive;
+  font-weight: bold;
+}
+
+a{
+	color: black;
+  font-family: 'Racing Sans One', cursive;
+}
+
+a:hover{
+	color: pink;
+  font-family: 'Racing Sans One', cursive;
+}
+
+/*specific designs*/
+
+.banner{
+  text-align: center;
+  color: rgba(0,180,100,0.8);
+  padding: 80px 0px 250px 0px;
+  background-image: url("images/CLO-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.button-green{
+  color: rgba(100,200,250,1);
+  background: rgba(180,180,100,0.5);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  border-radius: 4px;
+  padding: 20px 20px;
+  margin: 20px 500px;
+}
+
+.button-green:hover{
+  background: yellow;
+}
+.card-white {
+  background-color: ;
+  background: rgba(0,180,100,0.5);
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgba(180, 180, 180, 0.8);
+  padding: 24px;
+  color: white;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+
